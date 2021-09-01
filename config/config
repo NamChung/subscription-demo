@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:NamChung/subscription-demo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "8.x"]
+	remote = origin
+	merge = refs/heads/8.x
